@@ -27,6 +27,7 @@ a:hover
     {
         background: rgb(61, 60, 60);
         color: white;
+        height: 100vh;
     }
     .profil_pic div:nth-child(2)
     {
@@ -57,9 +58,10 @@ a:hover
    .more_links div p
    {
       background-color: #FFFF;
-      width: 100%;
+      margin: 1%;
       color: black;
-      margin-top: 10px;
+      margin: 10px 1px 22px;
       padding: 20px;
+      
    }
 }
