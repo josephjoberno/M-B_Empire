@@ -58,10 +58,8 @@ a:hover
    .more_links div p
    {
       background-color: #FFFF;
-      margin: 1%;
       color: black;
       margin: 10px 1px 22px;
-      padding: 20px;
-      
+      padding: 20px; 
    }
 }
