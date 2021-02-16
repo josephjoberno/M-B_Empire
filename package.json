@@ -4,7 +4,7 @@
   "description": "M-B Empire website",
   "main": "js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./style/main.scss:./style/index.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
     "url": "https://github.com/birladotech/M-B_Empire/issues"
   },
   "homepage": "https://github.com/birladotech/M-B_Empire#readme",
-  "dependencies": {
-    "sass": "^1.32.7"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
