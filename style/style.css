@@ -56,6 +56,13 @@ a:hover {
     margin: 10px 1px 22px;
     padding: 20px;
   }
+
+  .more_links div p:hover
+  {
+    border: 1px solid white;
+    background-color: #3D3B3C;
+    color: azure;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

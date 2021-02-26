@@ -104,8 +104,13 @@ body {
     margin-bottom: 20px;
   }
 
+  .follow:hover {
+    background-color: #373d3f;
+    color: white;
+  }
+
   .baseline_image {
-    background: url("../images/PSX_20210209_144406.jpg") no-repeat;
+    background: url("../images/2019-08-31-14-36-19.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -119,10 +124,42 @@ body {
   }
 
   .recent_work_img {
-    background: url("../images/20200928_123438.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .creation {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .creation .follow {
+    margin-top: 10px;
+    background-color: #373d3f;
+    color: white;
+  }
+  .creation .creation__text_1 {
+    margin-bottom: 25px;
+  }
+
+  .post_footer .post_footer__adventure {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .post_footer img {
+    width: 400px;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer .icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
   }
 }
 
